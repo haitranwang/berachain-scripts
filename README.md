@@ -1,0 +1,2 @@
+# berachain-scripts
+Berachain Scripts
