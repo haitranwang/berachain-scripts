@@ -13,8 +13,8 @@ let base_amount_percentage_range = [5, 15];
 const slippage = 35;
 const is_buy_range = [true, false, true, false];
 const spender = chainConfig.bexBeraCrocMultiSwap;
-const delayInMillisecondsFrom = 100_000; //1000 - 1 second
-const delayInMillisecondsTo = 2000_000; //10000 - 10 seconds
+const delayInMillisecondsFrom = 10_000; //1000 - 1 second
+const delayInMillisecondsTo = 200_000; //10000 - 10 seconds
 
 // token base, token quote
 const pairs_list = [

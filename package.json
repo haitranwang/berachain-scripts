@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@crocswap-libs/sdk": "^1.0.5",
+    "@crocswap/sdk": "^2.4.5",
     "@openzeppelin/contracts": "^5.0.2",
     "@openzeppelin/wizard": "^0.4.2",
     "@uniswap/sdk-core": "^5.0.0",
