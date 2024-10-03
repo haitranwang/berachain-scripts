@@ -15,6 +15,7 @@ const bartio = {
         'USDT': '0x05D0dD5135E3eF3aDE32a9eF9Cb06e8D37A6795D',
         'DAI': '0x806Ef538b228844c73E8E692ADCFa8Eb2fCF729c',
         'WETH': '0xE28AfD8c634946833e89ee3F122C06d7C537E8A8',
+        'WBTC': '0x286F1C3f0323dB9c91D1E8f45c8DF2d065AB5fae',
     },
     BEXpools: {
         'HONEY-WBERA': '0xAB827b1Cc3535A9e549EE387A6E9C3F02F481B49',
@@ -22,17 +23,15 @@ const bartio = {
     nativeToken: '0x0000000000000000000000000000000000000000',
     bexBeraCrocMultiSwap: '0x21e2C0AFd058A89FCf7caf3aEA3cB84Ae977B73D',
     bexCrocSwapDex: '0xAB827b1Cc3535A9e549EE387A6E9C3F02F481B49',
-    haloPancakeFactoryAddress: 'aura1lg3ppjltnaw59dkn904ud87xvsnurpq5xvu0qefj6qh36rxal55ql4vm2d',
-    haloUniV3FactoryAddress: '0x6D826782Df65bE8E336433DF60b42247Cd80D479',
-    haloPancakeRouterAddress: 'aura1y0ezfu7fkdcty5wx3v9rllw0k0n5rzvpzm2eucecsaa334cxmq7s0ugf0v',
-    haloUniV3RouterAddress: '0x5B0C8dc77d18c73251A78c1CFCAd55c9fF08496d',
-    haloUniV3Quoter: '0x75c02aC18755Dd6Fc2c0b0DcD05AdC309015675D',
+    bendProxyContract: '0x30A3039675E5b5cbEA49d9a5eacbc11f9199B86D',
+    getRewardBENDContract: '0x2E8410239bB4b099EE2d5683e3EF9d6f04E321CC',
+    honeyVaultRouter: '0xAd1782b2a7020631249031618fB1Bd09CD926b31',
 };
 
 let defaultChain = bartio;
 
-defaultChain.privateKey = Buffer.from('c0646908d860a3d7fb85b685d9c2c64e51650a1ce345b841ee741ec422282273', 'hex');
-defaultChain.account = '0x70Dbbcb694653313502250259A6757D690214193';
+defaultChain.privateKey = Buffer.from('your private key', 'hex');
+defaultChain.account = 'your address';
 
 module.exports = {
     bartio,
